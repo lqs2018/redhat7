@@ -1,0 +1,11 @@
+＃!/bin/bash
+echo "welcome to github!"
+if [ $# -eq 0 ],then
+echo "请输入参数："
+elif [ $1 == redhat ];then
+echo "centos"
+elif [ $1 == centos ];then
+echo "redhat"
+else 
+echo "只能输入redhat|centos"
+fi
